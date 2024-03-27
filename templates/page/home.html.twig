@@ -1,0 +1,16 @@
+{# ****** CONTAINER DE LA PAGE D'ACCUEIL POUR TOUT UTILISATEUR ****** #}
+
+{% extends 'base.html.twig' %}
+
+{% block body %}
+	{% include 'components/homecomponents/cardabout.html.twig' %}
+
+	<hr>
+
+	{% include 'components/homecomponents/cardavis.html.twig' %}
+
+	{% include 'components/homecomponents/cardservice.html.twig' %}
+
+	{% include 'components/homecomponents/cardinfos.html.twig' %}
+
+{% endblock %}
